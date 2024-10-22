@@ -5,25 +5,18 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Wrapper from './components/Wrapper'; 
 
 const App = () => {
   return (
-    <>
-   <div
-      style={{
-        backgroundImage: 'url("/logo192.png")', 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    >
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      </div>
-    </>
+      <Wrapper> 
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </Wrapper>
   );
 };
 
