@@ -11,7 +11,7 @@ const App = () => {
     <>
    <div
       style={{
-        backgroundImage: 'url("/jeremy-bishop-G9i_plbfDgk-unsplash.jpg")', // Ensure the path is correct
+        backgroundImage: 'url("\jeremy-bishop-G9i_plbfDgk-unsplash.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
