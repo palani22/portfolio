@@ -11,7 +11,7 @@ const App = () => {
     <>
    <div
       style={{
-        backgroundImage: 'url("\jeremy-bishop-G9i_plbfDgk-unsplash.jpg")', 
+        backgroundImage: 'url("/logo192.png")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
